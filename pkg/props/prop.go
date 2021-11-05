@@ -90,6 +90,9 @@ type TableListContent struct {
 	// value is not provided the width of all columns will be the
 	// same
 	GridSizes []uint
+
+	//Align Text per Column
+	Aligns []consts.Align
 }
 
 // TableList represents properties from a TableList
